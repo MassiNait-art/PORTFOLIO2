@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>
+            NAIT SLIMANI MASSINISSA
+        </h1>
+        <div class="menu">
+              <ul>
+                <li> <a href="#Compétances" class="btn-icon">
+                    <i class="fas fa-tools"></i> Compétences
+               </a> </li>
+                <li><a href="#projects" class="btn-icon">
+                    <i class="fas fa-folder-open"></i> Projets
+
+                </a></li>
+                <li><a href="#Contact" class="btn-icon">
+                    <i class="fas fa-comment"></i> Contact
+               </a> </li>
+
+
+              </ul>
+        </div>
+        
+    </header>
+    
+    <section id="Projet" class="back">
+ <div class="cont">       
+    <div class="pres">
+    
+        
+        <h3>INTRODUCTION</h3>
+    <p class="ppp"> Je m'appelle Massinissa, étudiant en informatique passionné par les technologies et les systèmes . <br> Mon parcours universitaire m’a permis d’acquérir des bases solides en programmation, en algorithmique et dans la compréhension du fonctionnement des systèmes. <br>Curieux, rigoureux et toujours motivé à apprendre, je m’investis pleinement dans chaque projet pour développer mes compétences et enrichir mon expé<rience class="br"></rience>Mon objectif est de devenir un professionnel compétent et polyvalent, capable de s’adapter aux évolutions constantes du domaine.</p>
+    </div>
+    <div class="compe" ">
+        <h3 >MES COMPÉTENCES</h3>
+        <ul>
+          <li><i class="fas fa-code"></i> Programmation (C, HTML/CSS) :  J'ai développé plusieurs projets universitaires en C , notamment un simulateur de gestion mémoire</li>
+
+          <li><i class="fas fa-brain"></i> Algorithmique & Résolution de problèmes :     J’ai appliqué des algorithmes de tri, de graphes et d’ordonnancement pour optimiser des processus dans mes travaux pratiques.
+          </li>
+
+          <li><i class="fas fa-gears"></i> Systèmes d’exploitation (Linux) :     J’ai utilisé des distributions Linux comme Ubuntu pour le développement, la navigation dans les fichiers via terminal, et la compilation de programmes.
+          </li>
+
+          <li><i class="fas fa-square-root-alt"></i>Mathématiques : J’utilise l’algorithmique et les notions de logique mathématique pour résoudre des problèmes complexes dans mes projets.</li>
+
+          <li><i class="fas fa-paint-brush"></i> Design :     J'ai conçu l'interface de mon portfolio personnel en utilisant HTML, CSS et une palette de couleurs cohérente.
+
+           
+          </li>
+        </ul>
+      </div>
+   
+
+</div>
+  <h1 class="masi">MES PROJETS</h1>
+<div class="rigl" id="projects">
+  
+<div class="projectgrid">
+  <div class="project-card" onclick="toggleDetails(this)">
+    <h2>Calculatrice</h2>
+    <div class="project-details">
+      <p>Ce projet est une calculatrice simple dévlopée pour effectuer les opératuions de base telles que l'aditon , la soustraction et la division. <br>L'interface est claire et facile a utilise ,adaptée pour une premiere expérience pour une premiere expérience en développement JavaScript nteractif</p><br>
+      <h3>Tecnologies utilisées</h3>
+       <p> HTML , CSS , JS</p> 
+      
+    
+    </div>
+    
+  </div>
+    
+    <script src="script.js"></script>
+
+  </div>
+  
+</div>
+<div class="calculator">
+  
+  <input type="text" id="display" disabled />
+  <div class="buttons">
+    <button onclick="clearDisplay()">C</button>
+    <button onclick="appendToDisplay('/')">/</button>
+    <button onclick="appendToDisplay('*')">*</button>
+    <button onclick="deleteLast()">⌫</button>
+
+    <button onclick="appendToDisplay('7')">7</button>
+    <button onclick="appendToDisplay('8')">8</button>
+    <button onclick="appendToDisplay('9')">9</button>
+    <button onclick="appendToDisplay('-')">-</button>
+
+    <button onclick="appendToDisplay('4')">4</button>
+    <button onclick="appendToDisplay('5')">5</button>
+    <button onclick="appendToDisplay('6')">6</button>
+    <button onclick="appendToDisplay('+')">+</button>
+
+    <button onclick="appendToDisplay('1')">1</button>
+    <button onclick="appendToDisplay('2')">2</button>
+    <button onclick="appendToDisplay('3')">3</button>
+    <button class="equal" onclick="calculate()">=</button>
+
+    <button onclick="appendToDisplay('0')" class="zero">0</button>
+    <button onclick="appendToDisplay('.')">.</button>
+  </div>
+</div>
+<script src="script.js"></script>
+
+</section>
+    <footer id="Contact">
+        
+        
+        
+      <div class="footer-container">
+        <div class="footer-social">
+          <div class="social-link">
+            <a href="https://www.facebook.com/username" target="_blank">
+              <i class="fab fa-facebook-f"></i> <span>Massi Nait</span>
+            </a>
+          </div>
+          <div class="social-link">
+            <a href="https://www.instagram.com/username" target="_blank">
+              <i class="fab fa-instagram"></i> <span>Massi Nait</span>
+            </a>
+          </div>
+        </div>
+    
+        <div class="footer-contact">
+          <div class="contact-link">
+            <a href="mailto:naitslimani71@gmail.com">
+              <i class="fas fa-envelope"></i> <span>naitslimani71@gmail.com</span>
+            </a>
+          </div>
+          <div class="contact-info">
+            <i class="fas fa-phone"></i> <span>0794393028</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Massinissa - Tous droits réservés</p>
+      </div>
+    </footer>
+    
+</body>
+</html>

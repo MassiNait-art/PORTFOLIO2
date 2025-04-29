@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.menu li {
+   text-align: center;
+   align-items: center;
+   list-style: none;
+    
+}
+.menu ul{
+    display: flex;
+    justify-content: center; 
+        
+}
+.menu ul li{
+    padding: 12px;
+}  
+.menu ul li a {
+text-decoration: none;
+color: rgb(180, 175, 175) ;
+}
+.pres{
+    text-align: right;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    width: 30%;
+    margin:  30px 30px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align:inherit;
+    line-height: 1.6;
+    box-shadow: 0PX 0PX 20PX gray
+
+}
+body{
+    background-color:rgb(41, 41, 41);
+    margin: 0px;
+}
+.azz{
+    color:white;
+
+}
+header{
+    background-color: black;
+    display:content;
+    padding: 10px;
+    box-shadow: 0PX 0PX 20PX gray
+
+    
+}
+.menu{
+    display: flex;
+  justify-content: center;
+  gap: 3px;
+  margin: 3px ;
+}
+.btn-icon{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.btn-icon:hover{
+    background-color:rgb(15, 15, 15);
+    transform: translateY(-3px);
+}
+body{
+    background: url(/img/68afee5a-9561-4133-ac85-a95018889762.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    padding: 0%;
+    flex-direction: column;
+    
+    
+}
+body::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    z-index: -1;
+    
+
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: px;
+    padding: 40px;
+}
+.compe{
+    text-align: left;
+    padding-left: 20px;
+    padding: 30px;
+    margin: 30px;
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    line-height: 1.6;
+    box-shadow: 0PX 0PX 20PX gray
+
+
+}
+.pres .come{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    width: 48%;
+    min-width: 300px;
+}
+ul{
+    list-style: square;
+    padding-left: 20px; 
+}
+li{
+    margin-bottom: 10px;
+    
+}
+
+footer {
+    text-align: center;
+    padding:20px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: px;;
+    color: white;
+}
+
+.footer-social, .footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.social-link, .contact-link, .contact-info {
+    margin: 8px 0;
+}
+
+.social-link a, .contact-link a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.social-link a:hover, .contact-link a:hover {
+    text-decoration: underline;
+}
+
+.social-link i, .contact-link i, .contact-info i {
+    margin-right: 8px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    
+}
+/*projet{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: white;
+}
+.projet button {
+    margin-top: 5px;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .projet button:hover {
+    background-color: #0077aa;
+  }*/
+  .project-card {
+    background-color: black;
+    border-top: solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    box-shadow:  rgba(0,0,0,0.6);
+    transition: all 0.3s ease;
+    color: white;
+    margin: 10px;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.01);
+  }
+  
+  .project-details {
+    display: none;
+    margin-top: 1rem;
+  }
+  
+  .project-details img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-top: 0.5rem;
+  }
+.masi {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0PX 0PX 20PX gray
+
+
+  
+  }
+  
+  .projectgrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  /* styles.css */
+/*.project-details {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+  }*/
+  
+  .calculator {
+    background-color:black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0PX 0PX 20PX gray
+
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #display {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #d0d0d0;
+  }
+  
+  button.equal {
+    grid-column: span 2;
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  button.equal:hover {
+    background-color: #45a049;
+  }
+  
+  button.zero {
+    grid-column: span 2;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
